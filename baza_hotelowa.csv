@@ -1,0 +1,61 @@
+Encja;Nazwa Atrybutu;Typ Danych;Typ Klucza;Opis
+Kategoria;ID_Kategorii;INT;PK;Unikalny identyfikator kategorii
+Kategoria;Nazwa;VARCHAR(50);;Nazwa standardu (np. Apartament)
+Kategoria;Cena_bazowa;DECIMAL(10,2);;Cena wyjściowa za dobę
+Kategoria;Opis;TEXT;;Opis wyposażenia i standardu
+Pokoje;ID_Pokoju;INT;PK;Unikalny identyfikator pokoju w systemie
+Pokoje;Numer_pokoju;VARCHAR(10);;Numer fizyczny na drzwiach
+Pokoje;Pietro;INT;;Numer piętra
+Pokoje;Status;VARCHAR(20);;Stan (Czysty, Brudny, Awaria)
+Sprzątanie;ID_Sprzatania;INT;PK;Unikalny numer zlecenia sprzątania
+Sprzątanie;Data_sprzatania;DATETIME;;Data i godzina wykonania usługi
+Sprzątanie;Status;VARCHAR(20);;Status wykonania (Zlecone, Zakończone)
+Restauracja;ID_Restauracji;INT;PK;Unikalny numer zamówienia/wizyty
+Restauracja;Numer_stolika;INT;;Numer zajętego stolika
+Restauracja;Kwota_zamowienia;DECIMAL(10,2);;Łączna kwota do zapłaty
+Restauracja;Data;DATETIME;;Data wizyty w restauracji
+Basen;ID_Basenu;INT;PK;Unikalny numer wejścia na basen
+Basen;Liczba_osob;INT;;Liczba osób korzystających z wejścia
+Basen;Czas_pobytu_min;INT;;Czas spędzony na basenie (w minutach)
+Basen;Data_wejscia;DATETIME;;Data i godzina wejścia
+Parking;ID_Parkingu;INT;PK;Unikalny identyfikator biletu parkingowego
+Parking;Numer_miejsca;VARCHAR(10);;Oznaczenie miejsca postojowego
+Parking;Nr_rejestracyjny;VARCHAR(15);;Numer rejestracyjny pojazdu
+Parking;Koszt_doba;DECIMAL(10,2);;Stawka za dobę parkowania
+Gość;ID_Goscia;INT;PK;Unikalny identyfikator gościa
+Gość;Imie;VARCHAR(50);;Imię gościa
+Gość;Nazwisko;VARCHAR(50);;Nazwisko gościa
+Gość;PESEL_Paszport;VARCHAR(20);;Numer dokumentu tożsamości
+Gość;Telefon;VARCHAR(15);;Numer kontaktowy
+Gość;Adres_email;VARCHAR(100);;Adres e-mail do kontaktu
+Rezerwacje;ID_Rezerwacji;INT;PK;Unikalny numer rezerwacji
+Rezerwacje;Data_od;DATE;;Planowana data przyjazdu
+Rezerwacje;Data_do;DATE;;Planowana data wyjazdu
+Rezerwacje;Status;VARCHAR(20);;Status (Potwierdzona, Wstępna, Anulowana)
+Przydzielenia;ID_Przydzielenia;INT;PK;Identyfikator operacji przydzielenia pokoju
+Przydzielenia;Data_przydzielenia;DATETIME;;Data i czas fizycznego przydzielenia pokoju
+Zameldowania;ID_Zameldowania;INT;PK;Identyfikator procesu zameldowania
+Zameldowania;Data_zameldowania;DATETIME;;Data i czas zameldowania w systemie
+Zameldowania;Uwagi;VARCHAR(200);;Dodatkowe uwagi recepcji
+Pracownik;ID_Pracownika;INT;PK;Unikalny identyfikator pracownika
+Pracownik;Imie;VARCHAR(50);;Imię pracownika
+Pracownik;Nazwisko;VARCHAR(50);;Nazwisko pracownika
+Pracownik;Stanowisko;VARCHAR(50);;Rola pełniona w hotelu
+Pracownik;Login;VARCHAR(30);;Nazwa użytkownika do logowania
+Wymeldowania;ID_Wymeldowania;INT;PK;Identyfikator procesu wymeldowania
+Wymeldowania;Data_wymeldowania;DATETIME;;Data i czas wymeldowania
+Wymeldowania;Zwrot_klucza;BOOLEAN;;Czy klucz/karta została zwrócona (TAK/NIE)
+Płatności_za_pobyt;ID_Platnosci_Pobyt;INT;PK;Identyfikator płatności głównej
+Płatności_za_pobyt;Kwota;DECIMAL(10,2);;Ostateczna kwota za noclegi
+Płatności_za_pobyt;Waluta;VARCHAR(3);;Waluta płatności (PLN, EUR)
+Płatności_do_rachunku;ID_Platnosci_Rach;INT;PK;Identyfikator płatności dodatkowej
+Płatności_do_rachunku;Kwota;DECIMAL(10,2);;Kwota dopisana do rachunku
+Płatności_do_rachunku;Opis;VARCHAR(100);;Opis obciążenia (np. Room Service)
+Transakcje;ID_Transakcji;INT;PK;Identyfikator pojedynczej transakcji
+Transakcje;Usluga;VARCHAR(100);;Nazwa konkretnej usługi/produktu
+Transakcje;Kwota;DECIMAL(10,2);;Cena jednostkowa usługi
+Transakcje;Data;DATETIME;;Data wykonania transakcji
+Dowód_zakupu;ID_Dowodu;INT;PK;Identyfikator dokumentu sprzedaży
+Dowód_zakupu;Typ;VARCHAR(20);;Typ dokumentu (Faktura, Paragon)
+Dowód_zakupu;Numer;VARCHAR(50);;Numer seryjny dokumentu
+Dowód_zakupu;Data_wystawienia;DATE;;Data wystawienia dokumentu
