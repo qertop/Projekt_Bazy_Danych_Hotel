@@ -14,4 +14,45 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_przydzielenia" id="4D481DB6-F9C2-5E29-288C-F071C263F787">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:32:09 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_przydzielenia" id="E13C28FF-33BD-BA57-E85C-DB6A601A861C">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:32:28 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C01D952-CC03-D5DA-9BA6-FC613DA3576F" name="Przydzielenia PK">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:32:27 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D481DB6-F9C2-5E29-288C-F071C263F787</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

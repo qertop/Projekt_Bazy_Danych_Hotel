@@ -14,4 +14,72 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numer_pokoju" id="18240E2A-57CD-9FCF-FDA5-721C8C31CE72">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 11:04:37 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pietro" id="F7DB8A51-600C-F7A0-0EBA-99A6216B5AC9">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 11:05:24 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="FE445E2E-3AC8-ED68-3E3C-27A9A1039A56">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 11:06:20 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pokoju" id="BFA1B8D0-612B-73AD-6CBD-01C074BA82A5">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:06:51 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4DE0CA0-613C-F030-AD72-F7EC7A7A72B0" name="Pokoje PK">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 11:04:51 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFA1B8D0-612B-73AD-6CBD-01C074BA82A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,74 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pracownika" id="D20809D2-1D70-68F7-B667-98F92CEC7453">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:22 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="F0EA3FA2-5B2E-B6A5-857F-DADAB350C281">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:33 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="03FBE91F-CC3D-D2B0-E368-5B22543366EA">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:45 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stanowisko" id="A126DC9E-FBAA-C3AA-6CAF-B98A877AA62A">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:59 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25EB1E06-03B7-BE14-70C3-97A364A89E91" name="Pracownicy PK">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:31 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D20809D2-1D70-68F7-B667-98F92CEC7453</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

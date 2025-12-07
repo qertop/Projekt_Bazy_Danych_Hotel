@@ -14,4 +14,72 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Rezerwacji" id="01D47BFA-A1FE-F837-DFFB-32CC0B4B1D03">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:28:47 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_od" id="E42AAD02-75D0-DBD6-A0A4-2458BFD9E28B">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:31:16 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_do" id="413A1E5C-CE7C-23BB-D78E-2415FC59CD7D">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:31:30 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="A6CDF76A-F061-7E76-64AD-9D3471DB2D22">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:31:38 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07CFE30F-8669-C48A-1BA8-B02E6566FCFC" name="Rezerwacje PK">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:31:15 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01D47BFA-A1FE-F837-DFFB-32CC0B4B1D03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

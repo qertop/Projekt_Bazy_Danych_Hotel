@@ -14,4 +14,101 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Goscia" id="179C0083-8498-C4C8-9B71-36B7D5F14B9C">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:15:31 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="EC1E07EA-5603-D829-FC86-6E4F92CA1235">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:15:44 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="554541D6-0CD0-8315-6D51-C20051E78D1A">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:16:00 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL_Paszport" id="C83A893F-220D-A87F-3580-E099DE740D4A">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:27:31 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres_email" id="935B0AB2-CA18-8B3D-91C7-D80B27CB1A6F">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:27:50 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="8FC2F212-69C3-FB8E-2BED-A0CAA5857FBF">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:27:50 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D284EA8-68B6-AA87-59CF-EB2F6250AD3C" name="Gosc PK">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:15:43 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>179C0083-8498-C4C8-9B71-36B7D5F14B9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
