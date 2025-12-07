@@ -1,0 +1,159 @@
+PARKING{
+ID_Parkingu (Integer) - Unikalny numer dla każdej usługi parking
+Numer_miejsca (VARCHAR) (10) - np. A93
+Nr_rejestracyjny (VARCHAR) (15) - rejestracja auta
+Koszt_doba (Integer) - koszt za parking na dobe w groszach
+}
+
+BASEN{
+ID_Basenu (Integer) - unikalny numer dla każdej usługi basen
+Czas_pobytu_min (Integer) - czas pobytu na basenie
+data_wejścia (Datetime) - data wejścia na basen
+Liczba_osob (Integer) - dla jakiej ilości osób usługa
+Usługa_basenowa (VARCHAR) (64) - typ usługi np. sauna, basen
+}
+
+RESTEURACJA{
+ID_Resteuracji (Integer) - unikalny numer dla każdej usługi resteuracja
+Numer_stolika (Integer)
+Kwota_zamowienia - kwota zamówienia w groszach
+Data - data usługi
+Typ_posiłku (VARCHAR) (64) - np. obiad, kolacja
+Napiwek (NUMERIC) (10,2) - ilość napiwka w złotówkach
+}
+
+KARTA_POBYTU{
+ID_karty (INTEGER) - unikalny numer dla każdej karty
+Saldo (NUMERIC) (10,2) - dostępne środki na karcie w złotówkach
+Limit_kredytowy (DECIMAL) (10,2)
+Czy_aktywna (VARCHAR) (16) - czy karta jest w użyciu
+}
+
+PLATNOSCI{
+ID_Platnosci (INTEGER) - unikalny numer dla każdej płatności
+Kwota (INTEGER) - kwota płatności w złotówkach
+Waluta (VARCHAR) (5) - jaka waluta jest użyta w płatności
+Data_platnosci (DATE) - kiedy została zrealizowana płatność
+Metoda_płatności (VARCHAR) (32) - jaką metodą została zrealizowana płatność np. gotówka, karta
+}
+
+PRZYDZIELENIA{
+ID_przydzielenia (Integer) - unikalny numer dla każdego przydzielenia
+Data_przydzielenia (Datetime)
+Data_zameldowania (Date)
+Data_wymeldowania (Date)
+}
+
+POKOJE{
+ID_pokoju (Integer) - unikalny numer dla każdego pokoju
+Numer_pokoju (VARCHAR) (10) - numer pokoju np A32
+Pietro (Integer) - na którym piętrze znajduje sie pokój
+Status (VARCHAR) (20) - np. czy jest zajęty, bądź potrzebne jest w nim sprzątanie
+Maks_liczba_osob (Integer) - maksymalna liczba osób w pokoju
+}
+
+SPRZATANIE{
+ID_sprzatania (Integer) - unikalny numer dla każdego sprzątania
+Data_sprzatania (Datetime)
+Status (VARCHAR) (20)
+Typ_sprzątania (VARCHAR) (32) - np. sama łazienka
+Uwagi (VARCHAR) (255) - uwagi klienta
+}
+
+KATEGORIA_POKOJU{
+ID_kategorii (Integer) - unikalny numer dla każdej kategorii
+Nazwa (VARCHAR) (50)
+Cena_bazowa (Integer) - cena bazowa za pokój na dobe w groszach
+Opis (VARCHAR) (100) - dodatkowy opis pokoju
+}
+
+REZERWACJE{
+ID_Rezerwacji (Integer) - unikalny numer dla każdej rezerwacji
+Data_od (Datetime)
+Data_do (Datetime)
+Status (VARCHAR) (20) - np. opłacona
+Data_złozenia (Date) - data rezerwacji
+Liczba_osob (Integer) - na ile osób przypada rezerwacja
+}
+
+GOSC{
+ID_Goscia (Integer) - unikalny numer każdego klienta
+Imie (VARCHAR) (50)
+Nazwisko (VARCHAR) (50)
+PESEL_Paszport (VARCHAR) (20)
+Adres_email (VARCHAR) (100)
+Telefon (VARCHAR) (15)
+Miasto (VARCHAR) (64)
+Ulica (VARCHAR) (64)
+Kod_pocztowy (VARCHAR) (16)
+}
+
+KAUCJE{
+ID_Kaucji (Integer) - unikalny numer każdej kaucji
+Kwota (Integer) - kwota w groszach
+Data_pobrania (Datetime)
+Data_zwrotu (Datetime)
+Status (VARCHAR) (100) - np. zapłacona, zwrócona
+}
+
+USTERKI{
+ID_usterki (Integer) - unikalny numer każdej usterki
+Data_zgłoszenia (Date)
+Opis (VARCHAR) (255) - opis co się stało
+Priorytet (VARCHAR) (64) - stopień ważności usterki
+Status_naprawy (VARCHAR) (64) - np. naprawiona, w trakcie, w oczekiwaniu
+Koszt_naprawy (DECIMAL) (10,2) - koszt naprawy w złotówkach
+Data_naprawy (Date)
+}
+
+PRACOWNICY{
+ID_Pracownika (Integer) - unikalny numer każdego pracownika
+Imie (VARCHAR) (50)
+Nazwisko (VARCHAR) (50)
+Stanowisko (VARCHAR) (50) - rodzaj pełniącego stanowiska
+Telefon (VARCHAR) (16)
+Data_zatrudnienia (Date)
+Numer_konta (VARCHAR) (32)
+Stawka_godzinowa (NUMERIC) (10,2) - stawka godzinowa w złotówkach
+}
+
+STANOWISKA{
+ID_stanowiska (Integer) - unikalny numer każdego stanowiska
+Nazwa (VARCHAR) (32)
+Opis (VARCHAR) (255)
+Stawka_bazowa - stawka bazowa w złotówkach
+}
+
+GRAFIK_PRACY{
+ID_zmiany (Integer) - unikalny numer każdej zmiany
+Data (Date)
+Godzina_rozpoczęcia (Time)
+Godzina_zakończenia (Time)
+Typ_zmiany (VARCHAR) (64)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
