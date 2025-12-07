@@ -1,0 +1,17 @@
+Gość — Rezerwacje (1:N): Jeden gość może dokonać w historii wielu rezerwacji, ale jedna rezerwacja należy zawsze do jednego gościa.
+Kategoria pokoju — Rezerwacje (1:N): Jedna kategoria (np. Apartament) może być wybierana w wielu rezerwacjach, ale rezerwacja dotyczy jednego konkretnego standardu.
+Rezerwacje — Kaucje (1:N): Do jednej rezerwacji może być przypisana jedna lub wiele wpłat kaucji.
+Rezerwacje — Przydzielenia (1:N): Z jednej rezerwacji może wynikać jedno lub więcej przydzieleń (np. przy zmianie pokoju w trakcie pobytu).
+Kategoria pokoju — Pokoje (1:N): Jedna kategoria (typ standardu) jest przypisana do wielu fizycznych pokoi w hotelu.
+Pokoje — Przydzielenia (1:N): Jeden pokój jest przydzielany wielokrotnie różnym gościom w czasie, ale jedno konkretne przydzielenie dotyczy jednego pokoju.
+Przydzielenia — Karta pobytu (1:N): Jedno przydzielenie generuje jedną kartę pobytu (rachunek), która zbiera koszty.
+Karta pobytu — Restauracja (1:N): Do jednej karty pobytu może być dopisanych wiele zamówień z restauracji.
+Karta pobytu — Basen (1:N): Do jednej karty pobytu może być dopisanych wiele wejść na basen.
+Karta pobytu — Parking (1:N): Do jednej karty pobytu może być dopisanych wiele opłat za parking.
+Karta pobytu — Płatności (1:N): Jedna karta pobytu (rachunek) może być opłacona w kilku ratach (wiele płatności).
+Stanowiska — Pracownicy (1:N): Na jednym stanowisku (np. Recepcjonista) może być zatrudnionych wielu pracowników.
+Pracownicy — Grafik pracy (1:N): Jeden pracownik posiada wiele wpisów (zmian) w grafiku pracy.
+Pracownicy — Sprzątanie (1:N): Jeden pracownik może wykonać wiele zadań sprzątania.
+Pokoje — Sprzątanie (1:N): Jeden pokój jest sprzątany wielokrotnie w historii.
+Pokoje — Usterki (1:N): W jednym pokoju może zostać zgłoszonych wiele usterek.
+Pracownicy — Usterki (1:N): Jeden pracownik techniczny może być przypisany do naprawy wielu usterek.
