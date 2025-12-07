@@ -80,6 +80,20 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Rezerwacji" id="A599FD33-1FE6-0D2A-EB8B-45F7122D9DD4">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:54:58 UTC</createdTime>
+<generatorID>D793B3B3-DF8E-CA63-EDCA-1D352F8BBF38</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>01D47BFA-A1FE-F837-DFFB-32CC0B4B1D03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="732C76C2-3A56-3585-9955-5260EB370CCD" name="Kaucje PK">

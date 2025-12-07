@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="516669D1-BCAC-3731-2003-3EB1426837E7" name="Transakcje">
-<createdBy>qb</createdBy>
-<createdTime>2025-12-04 10:56:18 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB729882-29DE-5080-8379-E8A3369F5659" name="Stanowiska">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:23:21 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Transkacji" id="5DCC3828-B617-89AB-8BA2-85B728F69D6E">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:39:14 UTC</createdTime>
+<Attribute name="ID_stanowiska" id="34C606B2-1D68-844D-E524-66B9AF60079A">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:07:04 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Usługa" id="D962A3D2-B0CD-4B17-C9D5-B5CB2871F2B1">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:39:35 UTC</createdTime>
+<Attribute name="Nazwa" id="58414631-26E0-27DC-7FE0-D9037A1CDF1C">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:51:11 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -38,12 +38,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kwota" id="8EB64C22-33AB-1F5F-8FD9-49737BEAE3B7">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:39:51 UTC</createdTime>
+<Attribute name="Opis" id="002648C5-93EA-FF09-89B8-D308472E1FCE">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:51:26 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -51,12 +51,13 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Data" id="1429A896-555F-7B80-8B28-27959DB31F27">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:40:14 UTC</createdTime>
+<Attribute name="Stawka_bazowa" id="7C2399D7-347A-58E0-858F-E45D3E11E37D">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:51:36 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -64,21 +65,23 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FBCC3937-3628-132C-15A3-4D6D7D244588" name="Transakcje PK">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:39:34 UTC</createdTime>
+<identifier id="46F0EE37-2412-24CB-5644-29A40FD21034" name="Stanowiska PK">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:07:14 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5DCC3828-B617-89AB-8BA2-85B728F69D6E</attributeRef>
+<attributeRef>34C606B2-1D68-844D-E524-66B9AF60079A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCEF93BB-5246-927D-250F-7A9A4D8D4DE5" name="Platnosci_za_pobyt">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCEF93BB-5246-927D-250F-7A9A4D8D4DE5" name="Platnosci">
 <createdBy>qb</createdBy>
 <createdTime>2025-12-04 10:55:56 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
@@ -54,6 +54,47 @@
 <dataTypeSize>5 CHAR</dataTypeSize>
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_karty" id="60932D71-8A5F-FC8A-0065-E52D80FF9EAF">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:06:46 UTC</createdTime>
+<generatorID>C853F328-A44A-EBA1-203B-3BE4BFA1A628</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>F177B98C-11D5-C4DF-F2CE-518DF1C03607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_platnosci" id="D05C8943-F523-8993-2E7C-BE6DC88FE49B">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:49:10 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Metoda_platnosci" id="92CACC7B-8A19-AD9B-DBD4-9D9EC00B8777">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:49:25 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="196F5264-2E16-FE45-78FF-8767FE25E986" name="Platnosci_za_pobyt PK">
@@ -66,6 +107,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>75805D2B-9CC3-1241-5BBD-84971BB0D7AD</attributeRef>
+<attributeRef>60932D71-8A5F-FC8A-0065-E52D80FF9EAF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

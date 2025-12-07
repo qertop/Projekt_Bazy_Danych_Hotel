@@ -53,6 +53,47 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_karty" id="37194B9C-AB27-17A4-C2AC-B3237A4B9C13">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:06:02 UTC</createdTime>
+<generatorID>F1007615-F95A-5F35-C762-92166B6CB24E</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>F177B98C-11D5-C4DF-F2CE-518DF1C03607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Liczba_osob" id="F77711A1-8EC2-0381-605F-61F103E7766A">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:56:01 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usluga_basenowa" id="DF9FEF0C-2959-07E0-BF16-9ACCF0B55A35">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:56:16 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="791483CD-2A81-69BF-CF3C-4A3126406577" name="Basen PK">

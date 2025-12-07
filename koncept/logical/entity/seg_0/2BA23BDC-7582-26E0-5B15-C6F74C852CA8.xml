@@ -67,6 +67,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_karty" id="3C1AD520-5386-64D8-D7FD-02053C125081">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:06:09 UTC</createdTime>
+<generatorID>1D799650-5E64-4ABE-0A54-80FC33AE5BBA</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>F177B98C-11D5-C4DF-F2CE-518DF1C03607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="68A6E23B-623F-392C-0F1E-449A71FA58C3" name="Parking PK">

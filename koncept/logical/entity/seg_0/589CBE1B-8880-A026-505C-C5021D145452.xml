@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="830A01DD-A276-F72A-89D9-CA4E3550321C" name="Rezerwacje">
-<createdBy>qb</createdBy>
-<createdTime>2025-12-02 13:13:54 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="589CBE1B-8880-A026-505C-C5021D145452" name="Usterki">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:32:07 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Rezerwacji" id="01D47BFA-A1FE-F837-DFFB-32CC0B4B1D03">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:28:47 UTC</createdTime>
+<Attribute name="ID_usterki" id="1EC07AB2-7DE2-E6AD-169B-37A12618F375">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:32:17 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -27,63 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Data_od" id="E42AAD02-75D0-DBD6-A0A4-2458BFD9E28B">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:31:16 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
-<engineerTo>
-<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Data_do" id="413A1E5C-CE7C-23BB-D78E-2415FC59CD7D">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:31:30 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
-<engineerTo>
-<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Status" id="A6CDF76A-F061-7E76-64AD-9D3471DB2D22">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:31:38 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
-<engineerTo>
-<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Goscia" id="23687752-4B62-632A-A762-16C3E4CBBE6D">
+<Attribute name="Data_zgloszenia" id="79155236-30DB-E71B-F63D-E5D3AE49F230">
 <createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 18:44:34 UTC</createdTime>
-<generatorID>704A894F-0FEA-5A91-F8D0-7CE239AC9AB8</generatorID>
-<ownerDesignName>koncept</ownerDesignName>
-<engineerTo>
-<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
-</engineerTo>
-<referedAttribute>179C0083-8498-C4C8-9B71-36B7D5F14B9C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Data_zlozenia" id="FD425E03-5B9E-0E79-AEBA-67968FFA283A">
-<createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 19:53:38 UTC</createdTime>
+<createdTime>2025-12-07 18:32:27 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -94,9 +40,9 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Liczba_osob" id="DAD7EFB6-3FF2-27D2-0143-104CF7937F6F">
+<Attribute name="Opis" id="BD85D41B-C234-46FF-7610-0F8927BEC1FC">
 <createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 19:54:09 UTC</createdTime>
+<createdTime>2025-12-07 18:32:43 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
@@ -104,35 +50,106 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_kategorii" id="9EA7BFD7-89F5-10D0-7B08-DBFE3AE33BF4">
+<Attribute name="Priorytet" id="53AB5D17-CEA7-3162-C60F-40DEA9077095">
 <createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 20:15:07 UTC</createdTime>
-<generatorID>52608D22-73A7-AD9B-6BBA-150D0DCF068D</generatorID>
+<createdTime>2025-12-07 18:33:02 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
-<referedAttribute>1C6E17EA-40D2-5FF1-9E7C-EAA83802B094</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status_naprawy" id="3E4D4839-EA37-939A-E74E-3BD50C2B1258">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:33:30 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pokoju" id="2963D359-14E2-D801-84CE-1AC8241D090A">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:17:06 UTC</createdTime>
+<generatorID>C2C551F5-37A1-3612-F6A0-4D7D4EE53ABF</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>BFA1B8D0-612B-73AD-6CBD-01C074BA82A5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Pracownika" id="A2CD77FC-01A3-5174-456F-DA4665BC1DD4">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:22:00 UTC</createdTime>
+<generatorID>FDEC3CE4-FBF8-1394-F899-826410B2BB2D</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>D20809D2-1D70-68F7-B667-98F92CEC7453</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Koszt_naprawy" id="B875CCFE-9D12-4D43-2273-54FE423254D0">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 20:04:29 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_naprawy" id="28BDE684-40E8-C55B-E40E-1BC01271FED1">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 20:05:03 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="07CFE30F-8669-C48A-1BA8-B02E6566FCFC" name="Rezerwacje PK">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:31:15 UTC</createdTime>
+<identifier id="448B57EC-11C6-C50D-7095-E66EE0345582" name="Usterki PK">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:32:25 UTC</createdTime>
 <ownerDesignName>koncept</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>01D47BFA-A1FE-F837-DFFB-32CC0B4B1D03</attributeRef>
+<attributeRef>1EC07AB2-7DE2-E6AD-169B-37A12618F375</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

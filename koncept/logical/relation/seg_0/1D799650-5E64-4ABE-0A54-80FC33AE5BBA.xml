@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="1D799650-5E64-4ABE-0A54-80FC33AE5BBA">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:06:09 UTC</createdTime>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<sourcePk>F26B6FAD-3679-606D-DD2F-7CD95B348A5B</sourcePk>
+<targetPk>68A6E23B-623F-392C-0F1E-449A71FA58C3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E03526B6-0E5E-49FF-BFC9-3D0733A047B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2BA23BDC-7582-26E0-5B15-C6F74C852CA8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
