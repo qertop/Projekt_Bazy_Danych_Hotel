@@ -9,7 +9,7 @@
 <sourcePk>46F0EE37-2412-24CB-5644-29A40FD21034</sourcePk>
 <targetPk>25EB1E06-03B7-BE14-70C3-97A364A89E91</targetPk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>CB729882-29DE-5080-8379-E8A3369F5659</sourceEntity>

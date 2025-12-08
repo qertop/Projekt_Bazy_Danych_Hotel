@@ -121,6 +121,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Kaucji" id="DBDF4B19-4427-917F-99CA-90306F60E685">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-08 12:34:39 UTC</createdTime>
+<generatorID>D793B3B3-DF8E-CA63-EDCA-1D352F8BBF38</generatorID>
+<ownerDesignName>koncept</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>0017A4C1-EE77-B40D-32F1-4E58F5C2FDE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="07CFE30F-8669-C48A-1BA8-B02E6566FCFC" name="Rezerwacje PK">
