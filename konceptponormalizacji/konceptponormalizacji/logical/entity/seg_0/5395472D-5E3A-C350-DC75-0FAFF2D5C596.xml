@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5395472D-5E3A-C350-DC75-0FAFF2D5C596" name="Pracownicy">
+<createdBy>qb</createdBy>
+<createdTime>2025-12-02 13:30:49 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pracownika" id="D20809D2-1D70-68F7-B667-98F92CEC7453">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:22 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="F0EA3FA2-5B2E-B6A5-857F-DADAB350C281">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:33 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="03FBE91F-CC3D-D2B0-E368-5B22543366EA">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:45 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stanowisko" id="A126DC9E-FBAA-C3AA-6CAF-B98A877AA62A">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:59 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_stanowiska" id="E10E453A-4F10-B781-804B-B51349CEAD57">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:12:42 UTC</createdTime>
+<generatorID>8DBC5858-D887-47CE-DBBF-971CD3B50BB0</generatorID>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>34C606B2-1D68-844D-E524-66B9AF60079A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="76B8004D-9C7C-0066-B070-3AF2AFDA5AC4">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:57:41 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zatrudnienia" id="5AA0E231-9133-A487-60B0-7503FA288559">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:58:46 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer_konta" id="BC796517-DF5A-124F-FA05-E472AC49B829">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 19:59:46 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stawka_godzinowa" id="40BDA6F0-01E9-9125-E788-4FB07C0F5DBD">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 20:00:17 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25EB1E06-03B7-BE14-70C3-97A364A89E91" name="Pracownicy PK">
+<createdBy>swide</createdBy>
+<createdTime>2025-12-07 13:34:31 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D20809D2-1D70-68F7-B667-98F92CEC7453</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

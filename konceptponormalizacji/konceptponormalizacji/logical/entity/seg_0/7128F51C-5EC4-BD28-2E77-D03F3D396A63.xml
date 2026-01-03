@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCEF93BB-5246-927D-250F-7A9A4D8D4DE5" name="Platnosci">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7128F51C-5EC4-BD28-2E77-D03F3D396A63" name="Przydzielenia">
 <createdBy>qb</createdBy>
-<createdTime>2025-12-04 10:55:56 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<createdTime>2025-12-02 13:13:39 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Platnosci" id="75805D2B-9CC3-1241-5BBD-84971BB0D7AD">
+<Attribute name="ID_przydzielenia" id="4D481DB6-F9C2-5E29-288C-F071C263F787">
 <createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:37:43 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<createdTime>2025-12-07 13:32:09 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -27,51 +27,23 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kwota" id="724ECE72-2804-CA19-2D44-6762472FEF4C">
+<Attribute name="Data_przydzielenia" id="E13C28FF-33BD-BA57-E85C-DB6A601A861C">
 <createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:38:06 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<createdTime>2025-12-07 13:32:28 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Waluta" id="8174C8EA-614F-45DC-E50F-9F883CE6EBE3">
-<createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:38:19 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
-<engineerTo>
-<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5 CHAR</dataTypeSize>
-<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_karty" id="60932D71-8A5F-FC8A-0065-E52D80FF9EAF">
+<Attribute name="Data_zameldowania" id="0DE6893A-00DF-FEDA-29FB-E781B26CFA92">
 <createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 19:06:46 UTC</createdTime>
-<generatorID>C853F328-A44A-EBA1-203B-3BE4BFA1A628</generatorID>
-<ownerDesignName>koncept</ownerDesignName>
-<engineerTo>
-<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
-</engineerTo>
-<referedAttribute>F177B98C-11D5-C4DF-F2CE-518DF1C03607</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Data_platnosci" id="D05C8943-F523-8993-2E7C-BE6DC88FE49B">
-<createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 19:49:10 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<createdTime>2025-12-07 18:27:43 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -81,32 +53,59 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Metoda_platnosci" id="92CACC7B-8A19-AD9B-DBD4-9D9EC00B8777">
+<Attribute name="Data_wymeldowania" id="251F22CB-4059-578D-845A-1154C5CB281B">
 <createdBy>Kuba</createdBy>
-<createdTime>2025-12-07 19:49:25 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<createdTime>2025-12-07 18:27:56 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Rezerwacji" id="625BA510-7C69-F857-5500-190A8CE34CE9">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:47:08 UTC</createdTime>
+<generatorID>FA0FC9A3-B280-735D-4E3E-89C9DF5FCCC6</generatorID>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>01D47BFA-A1FE-F837-DFFB-32CC0B4B1D03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pokoju" id="D4CEB569-95E3-5AF6-C8C8-48F36C305490">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:48:10 UTC</createdTime>
+<generatorID>CB222B31-DBF7-BDAC-A108-61DF67BEB7F8</generatorID>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>BFA1B8D0-612B-73AD-6CBD-01C074BA82A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="196F5264-2E16-FE45-78FF-8767FE25E986" name="Platnosci_za_pobyt PK">
+<identifier id="7C01D952-CC03-D5DA-9BA6-FC613DA3576F" name="Przydzielenia PK">
 <createdBy>swide</createdBy>
-<createdTime>2025-12-07 13:38:04 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<createdTime>2025-12-07 13:32:27 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>75805D2B-9CC3-1241-5BBD-84971BB0D7AD</attributeRef>
+<attributeRef>4D481DB6-F9C2-5E29-288C-F071C263F787</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

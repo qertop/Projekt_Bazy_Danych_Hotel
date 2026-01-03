@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64049953-0FB0-6694-FB2C-20696A56FD97" name="Basen">
+<createdBy>qb</createdBy>
+<createdTime>2025-12-21 17:55:17 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1995E5CD-D48E-0E16-DD70-581BC2C50AF8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>BAS</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Basen" id="C96D00BD-FE16-3D99-B85D-118A5C1C8B4A">
+<createdBy>qb</createdBy>
+<createdTime>2025-12-21 18:01:49 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_szafki" id="B2B7E3F0-E8CA-A8E9-390A-3648A16C7956">
+<createdBy>qb</createdBy>
+<createdTime>2026-01-03 15:59:02 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Biletu" id="6FBDE0B7-422D-3E32-8E24-434032966C58">
+<createdBy>root</createdBy>
+<createdTime>2026-01-03 19:37:11 UTC</createdTime>
+<generatorID>640307F2-86BF-2024-8251-E3B9CF7C522B</generatorID>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>4F12D570-2C7D-C9CC-4DDC-9A93A911C79F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08AB570A-2CAD-6345-F90B-FAA7717B5ABA" name="Basen PK">
+<createdBy>qb</createdBy>
+<createdTime>2025-12-21 17:55:17 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C96D00BD-FE16-3D99-B85D-118A5C1C8B4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

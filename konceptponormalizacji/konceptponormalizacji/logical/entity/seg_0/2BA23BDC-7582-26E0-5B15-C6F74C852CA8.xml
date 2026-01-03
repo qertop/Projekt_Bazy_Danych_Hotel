@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BA23BDC-7582-26E0-5B15-C6F74C852CA8" name="Parking">
 <createdBy>qb</createdBy>
 <createdTime>2025-12-02 13:19:01 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="ID_Parkingu" id="A41B25E9-A040-66E8-AAF9-5A246897256C">
 <createdBy>swide</createdBy>
 <createdTime>2025-12-07 13:13:30 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -30,7 +30,7 @@
 <Attribute name="Numer_miejsca" id="F6DA7498-C2CB-9C77-95C3-FE5DC74A1A4F">
 <createdBy>swide</createdBy>
 <createdTime>2025-12-07 13:13:54 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -43,7 +43,7 @@
 <Attribute name="Nr_rejestracyjny" id="E33231C2-F204-F193-1151-FCD425A3088E">
 <createdBy>swide</createdBy>
 <createdTime>2025-12-07 13:14:18 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -57,7 +57,7 @@
 <Attribute name="Koszt_doba" id="29E73A15-651A-7567-FC40-B12D7A867E04">
 <createdBy>swide</createdBy>
 <createdTime>2025-12-07 13:14:56 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -71,7 +71,7 @@
 <createdBy>qb</createdBy>
 <createdTime>2025-12-21 18:11:56 UTC</createdTime>
 <generatorID>435C94FA-4828-399B-0085-9B172E592E58</generatorID>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
@@ -86,7 +86,7 @@
 <identifier id="68A6E23B-623F-392C-0F1E-449A71FA58C3" name="Parking PK">
 <createdBy>swide</createdBy>
 <createdTime>2025-12-07 13:13:53 UTC</createdTime>
-<ownerDesignName>koncept</ownerDesignName>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
 <engineerTo>
 <item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
 </engineerTo>
