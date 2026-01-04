@@ -1,0 +1,4 @@
+1. Wydzielenie słownika (TYP_ZMIANY) – do osobnej tabeli przeniesiono nie tylko nazwy zmian, ale również godziny ich rozpoczęcia i zakończenia. Dzięki temu parametry te są definiowane raz dla każdego rodzaju zmiany.
+
+
+2. Eliminacja anomalii i 3NF – ponieważ godziny pracy zależą bezpośrednio od rodzaju zmiany, a nie od konkretnej daty czy pracownika, ich obecność w głównej tabeli grafiku naruszałaby postać 3NF (zależność przechodnia) . Przeniesienie ich do słownika sprawia, że dane są spójne i nie ma ryzyka pomyłki przy wpisywaniu godzin dla tej samej zmiany w różnych dniach.

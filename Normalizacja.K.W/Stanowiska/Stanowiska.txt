@@ -1,0 +1,3 @@
+1. Zastosowanie tabeli słownikowej (STANOWISKA) – dane takie jak opis roli oraz stawka bazowa zostały umieszczone w tej encji, aby uniknąć ich wielokrotnego powtarzania przy każdym pracowniku, co minimalizuje ryzyko błędów i niespójności.
+
+2. Eliminacja zależności przechodnich – atrybuty płacowe i opisowe zależą bezpośrednio od stanowiska, a nie od konkretnej osoby (pracownika). Dzięki takiemu rozdzieleniu encji, każda kolumna w tabeli pracowników zależy wyłącznie od klucza głównego (ID_Pracownika), co jest warunkiem koniecznym dla postaci 3NF.

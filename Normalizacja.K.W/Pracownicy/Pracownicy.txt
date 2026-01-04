@@ -1,0 +1,4 @@
+1. Zastosowanie tabeli słownikowej (STANOWISKA) – dzięki wydzieleniu danych o roli (nazwa, opis) oraz płacy (stawka bazowa) do osobnej encji, unikamy powielania tych informacji przy każdym pracowniku, co gwarantuje spójność danych w całym hotelu.
+
+
+2. Brak zależności przechodnich – atrybuty takie jak stawka bazowa zależą bezpośrednio od stanowiska, a nie od konkretnej osoby. Dzięki takiemu rozdzieleniu każda kolumna w tabeli Pracownicy (np. telefon czy numer konta) zależy wyłącznie od jej klucza głównego (ID_Pracownika), co odpowiada wymogom 3NF.

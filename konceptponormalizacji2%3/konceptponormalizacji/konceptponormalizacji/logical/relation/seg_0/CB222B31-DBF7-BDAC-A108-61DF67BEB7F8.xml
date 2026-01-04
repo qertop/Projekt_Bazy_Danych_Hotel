@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="CB222B31-DBF7-BDAC-A108-61DF67BEB7F8">
+<createdBy>Kuba</createdBy>
+<createdTime>2025-12-07 18:48:10 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<sourcePk>F4DE0CA0-613C-F030-AD72-F7EC7A7A72B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>826694FD-5AB3-FE26-860A-5340FF53EC17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7128F51C-5EC4-BD28-2E77-D03F3D396A63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

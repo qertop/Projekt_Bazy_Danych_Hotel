@@ -1,0 +1,2 @@
+1.Wydzielenie słownika (STATUSY) – w głównej tabeli pokoi przechowywany jest jedynie identyfikator statusu, co zapobiega powielaniu tych samych nazw tekstowych i chroni przed błędami podczas ich edycji.
+2.Eliminacja zależności przechodnich – poprzez przeniesienie opisowej nazwy statusu do osobnej tabeli, sprawiamy, że dane w tabeli pokoi zależą wyłącznie od klucza głównego, co pozwala uzyskać postać 3NF.

@@ -1,0 +1,3 @@
+1. Wydzielenie słowników (STATUS, PRIORYTET) – nazwy statusów oraz priorytetów zostały przeniesione do osobnych tabel, co zapobiega powielaniu tekstów w bazie i pozwala na łatwiejsze filtrowanie zgłoszeń.
+
+2. Eliminacja zależności przechodnich – atrybuty takie jak nazwa statusu czy nazwa priorytetu zależą od swoich identyfikatorów, a nie bezpośrednio od ID konkretnej usterki. Rozdzielenie tych danych pozwala spełnić wymogi postaci 3NF.

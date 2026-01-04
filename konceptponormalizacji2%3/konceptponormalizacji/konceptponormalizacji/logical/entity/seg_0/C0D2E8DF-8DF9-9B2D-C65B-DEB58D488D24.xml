@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0D2E8DF-8DF9-9B2D-C65B-DEB58D488D24" name="Kody_pocztowe">
+<createdBy>swide</createdBy>
+<createdTime>2026-01-03 21:17:17 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kod_pocztowy" id="60BFA4BF-4082-C3FB-CC04-DCFEFDE71942">
+<createdBy>swide</createdBy>
+<createdTime>2026-01-03 21:17:31 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Miasta" id="0973B394-05ED-CC0E-E053-F19BEF06CADB">
+<createdBy>swide</createdBy>
+<createdTime>2026-01-03 21:20:29 UTC</createdTime>
+<generatorID>5B6C979C-070B-BE41-86D1-0EE22307DF40</generatorID>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<referedAttribute>F110C5F8-2B4A-98E8-D5E8-EA6E919A27BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="627BD8E8-23A0-61AB-272F-B07BDA6BA00A" name="Kody_pocztowe PK">
+<createdBy>swide</createdBy>
+<createdTime>2026-01-03 21:17:59 UTC</createdTime>
+<ownerDesignName>konceptponormalizacji</ownerDesignName>
+<engineerTo>
+<item key="D0F540F1-9674-2547-A352-47BE0605ACC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60BFA4BF-4082-C3FB-CC04-DCFEFDE71942</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
